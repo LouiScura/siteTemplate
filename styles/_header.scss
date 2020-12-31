@@ -1,0 +1,35 @@
+// Header styles
+@import "./functions";
+
+.main-header-container {
+    margin: 40px 0px;
+
+    #main-navbar {
+        @include headerFlex(space-around);
+    }
+
+    .image-wrapper {
+        width: 270px;
+        
+        img{
+            width: auto;
+        }
+    }
+
+    .menu-wrapper {
+        width: 500px;
+    }
+
+    .menu-list{
+        @include headerFlex(space-between);
+        list-style: none;
+        height: 68px;
+        align-items: center;
+        
+        .nav-link{
+            text-decoration: none;
+            color: $navLinkColor;
+        }
+    }
+
+}

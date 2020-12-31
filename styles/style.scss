@@ -1,0 +1,6 @@
+@import "./variables";
+@import "./header";
+body{
+    background: $mainBodyColor;
+    font-family: $mainFont;
+}

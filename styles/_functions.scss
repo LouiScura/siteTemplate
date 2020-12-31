@@ -1,0 +1,7 @@
+// All scss functions
+
+// Header functions
+@mixin headerFlex($contentJustify) {
+    display: flex;
+    justify-content: $contentJustify;
+}
