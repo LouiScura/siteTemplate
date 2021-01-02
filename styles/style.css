@@ -1,5 +1,5 @@
 .main-header-container {
-  margin: 40px 0px;
+  margin: 40px 0px 0px 0px;
 }
 
 .main-header-container #main-navbar {
@@ -39,6 +39,61 @@
 .main-header-container .menu-list .nav-link {
   text-decoration: none;
   color: #ffffff;
+}
+
+.section-banner {
+  background-image: url("../images/home01.jpg");
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: cover;
+  /* Resize the background image to cover the entire container */
+  background-position: center;
+  position: relative;
+}
+
+.section-banner .container {
+  position: absolute;
+  top: 40%;
+  left: 20%;
+}
+
+.section-banner .container h1 {
+  color: #ffffff;
+  font-size: 65px;
+  margin: 0px;
+}
+
+.section-banner .container h1 span {
+  display: block;
+}
+
+.section-banner .container .second-text {
+  display: table;
+  background: #bdbdbd75;
+  padding: 10px 0px;
+  font-size: 25px;
+}
+
+.section-banner .container .banner-btn {
+  background-image: -webkit-gradient(linear, left top, right top, from(#752d5b), to(#ce99d2));
+  background-image: linear-gradient(to right, #752d5b, #ce99d2);
+  margin: 10px 0px;
+  border-radius: 30px;
+  border: none;
+  height: 60px;
+  width: 160px;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.section-banner .container .banner-btn:focus {
+  outline: none;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
 }
 
 body {

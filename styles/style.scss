@@ -1,5 +1,11 @@
+// All general css styles and import all differents site css parts 
 @import "./variables";
 @import "./header";
+@import "./banner";
+html, body {
+    height: 100%;
+    width: 100%;
+}
 body{
     background: $mainBodyColor;
     font-family: $mainFont;

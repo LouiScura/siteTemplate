@@ -1,0 +1,42 @@
+// Banner css
+.section-banner {
+    background-image: url("../images/home01.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover; /* Resize the background image to cover the entire container */
+    background-position: center;
+    position: relative;
+    .container {
+        position: absolute;
+        top: 40%;
+        left: 20%;
+        h1 {
+            color: $bannerTitle;
+            font-size: $bannerTitleSize;
+            margin: 0px;
+            span {
+                display: block;
+            }
+        }
+        .second-text{
+            display: table;
+            background: #bdbdbd75;
+            padding: 10px 0px;
+            font-size: 25px;
+        }
+        .banner-btn {
+            background-image: linear-gradient(to right, #752d5b , #ce99d2);  //linear-gradient(direction, color-stop1, color-stop2, ...);
+            margin: 10px 0px;
+            border-radius: 30px;
+            border: none;
+            height: 60px;
+            width: 160px;
+            color: white;
+            font-size: 18px;
+            cursor: pointer;
+            &:focus{
+                outline: none;
+            }
+        }
+    }
+}
